@@ -5,16 +5,11 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailParser
-  attr_accessor :email
-  @@list = []
+  attr_accessor :emails
 
-  def self.all
-    @@list
-  end
+  def initialize(emails)
 
-  def self.parse
-    parser = self.new
-
+  def parse
     #binding.pry
   end
 
