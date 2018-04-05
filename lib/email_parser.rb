@@ -13,6 +13,7 @@ class EmailParser
 
   def parse
     @emails.split(/,\s|\s/)
+    @emails.uniq
     #binding.pry
   end
 
